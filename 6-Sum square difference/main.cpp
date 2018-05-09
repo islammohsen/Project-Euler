@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n;
-    cin >> n; //in problem n = 100
+    cin >> n;
     int sum1 = (n * (n + 1)) / 2;
     sum1 *= sum1;
     int sum2 = ((n) * (n + 1) * (2 * n + 1)) / 6;
